@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".homeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler1"
+        android:layout_width="399dp"
+        android:layout_height="694dp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="54dp"
+        tools:layout_editor_absolutex="98dp"
+        tools:layout_editor_absolutey="54dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
